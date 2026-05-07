@@ -292,7 +292,6 @@ button {
   font-size: 16px;
 }
 
-
 .team {
   background-color: #f4f4fd;
 }
@@ -696,12 +695,16 @@ button {
 
 .modal-checkbox-label {
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 8px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+}
+
+.modal-checkbox-label-text {
+  display: block;
 }
 
 .modal-checkbox-custom {
@@ -711,7 +714,6 @@ button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin-right: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   fill: transparent;
@@ -729,7 +731,6 @@ button {
 
 .modal-policy-link {
   color: #4d5ae5;
-  margin-left: 4px;
 }
 
 .modal-submit-btn {
@@ -977,7 +978,7 @@ button {
   .portfolio-item {
     width: calc((100% - 24px) / 2);
   }
-  
+
   .footer-container {
     width: 584px;
     flex-wrap: wrap;
@@ -992,12 +993,12 @@ button {
   .footer-social-box {
     text-align: left;
   }
-  
+
   .footer-subscribe-box {
     width: 453px;
     text-align: left;
   }
-  
+
   .footer-subscribe-title {
     text-align: left;
   }
@@ -1093,6 +1094,10 @@ button {
     font-weight: 500;
   }
 
+  .excellence-item .text {
+    font-weight: 400;
+  }
+
   .team-list {
     flex-wrap: nowrap;
     gap: 24px;
@@ -1105,14 +1110,14 @@ button {
   .portfolio-item {
     width: calc((100% - 48px) / 3);
   }
-  
+
   .footer-container {
-  width: 100%;
-  max-width: 1158px;
-  flex-wrap: nowrap;
-  gap: 0;
-  justify-content: flex-start;
-}
+    width: 100%;
+    max-width: 1158px;
+    flex-wrap: nowrap;
+    gap: 0;
+    justify-content: flex-start;
+  }
 
   .footer-logo-box {
     margin-right: 120px;
