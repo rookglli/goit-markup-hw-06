@@ -415,12 +415,6 @@ button {
   text-align: center;
 }
 
-.footer-logo {
-  display: inline-block;
-  margin-bottom: 16px;
-  padding: 0;
-}
-
 .footer-text {
   max-width: 264px;
   font-size: 16px;
@@ -1134,4 +1128,10 @@ button {
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url("../images/hero-desktop@2x.jpg");
   }
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 0;
 }
